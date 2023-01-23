@@ -1,5 +1,4 @@
 import re
-import sys
 
 
 def copy_paste(string):
@@ -57,4 +56,15 @@ def copy_paste(string):
 
 
 if __name__ == "__main__":
-    copy_paste(sys.argv[1])
+
+    copy_paste("the big red[CTRL+C] fox jumps over [CTRL+V] lazy dog.")
+    copy_paste("[CTRL+V]the tall oak tree towers over the lush green meadow.")
+    copy_paste("the sun shines down[CTRL+C] on [CTRL+V][CTRL+C] the busy [CTRL+V].")
+    copy_paste("[CTRL+V]the tall oak tree towers over the lush green meadow.")
+    copy_paste("a majestic lion[CTRL+C] searches for [CTRL+V] in the tall grass.")
+    copy_paste(
+        "the shimmering star[CTRL+X]Twinkling in the dark, [CTRL+V] shines bright."
+    )
+    copy_paste(
+        "[CTRL+X]a fluffy white cloud drifts [CTRL+V][CTRL+C] across the sky, [CTRL+V]"
+    )

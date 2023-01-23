@@ -1,4 +1,4 @@
-# COpy Paste
+# Copy Paste
 
 **CLUB** - Cloud Hubble
 

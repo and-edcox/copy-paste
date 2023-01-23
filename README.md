@@ -8,9 +8,9 @@ Algorithm for evaluating Copy/Cut and Paste.
 
 ## How to use
 
-To use, run the ```copy-paste.py``` script and pass the sentence in as an argument, for example:
+Running the script will execute the function for each of the supplied strings:
 
-```python copy-paste.py "the first[CTRL+C] Coding Challenge was [CTRL+V] string manipulation task"```
+```python copy-paste.py```
 
 ## Unit Tests
 
